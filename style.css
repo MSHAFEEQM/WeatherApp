@@ -35,7 +35,7 @@ body{
 }
 
 .notification p{
-    color: bisque;
+    color: rgb(240, 13, 25);
     font-size: 1.2em;
     margin: 0;
     text-align: center;
@@ -44,7 +44,7 @@ body{
 
 .weather-container{
     width: 300px;
-    height: 260px;
+    
     background-color:#F4F9FF ;
 
 }
@@ -59,10 +59,10 @@ body{
 }
 .temp-value{
     width: 300px;
-    height: 60px;
+    
 }
 .temp-value p{
-    padding: 0;
+    padding: 10px;
     margin: 0;
     color: #293251;
     font-size: 4em;
@@ -79,14 +79,15 @@ body{
 
 .temp-desc p{
     padding: 8px;
-    margin: 0;
+    margin: 0 0;
     color: #293251;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.5em;
+    font-weight: bold;
 
 }
 .location p{
-    padding: 8px;
+    padding: 5px;
     margin: 0;
     color: #293251;
     text-align: center;
